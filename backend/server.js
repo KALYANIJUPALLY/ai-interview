@@ -9,7 +9,7 @@ app.use(express.json({ limit: "10mb" }));
 app.use(express.urlencoded({ limit: "10mb", extended: true }));
 app.use(cors());
 
-const API_KEY = "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";
+const API_KEY = "api_key";
 
 // 🚀 Generate Questions
 app.post("/generate", async (req, res) => {

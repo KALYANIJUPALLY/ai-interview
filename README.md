@@ -1,70 +1,173 @@
-# Getting Started with Create React App
+# 🚀 AI Interview Prep Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An AI-powered web application that generates personalized interview questions from a resume, supports voice-based answering, and provides AI-driven feedback to help users prepare for technical and HR interviews.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌟 Features
 
-### `npm start`
+* 📄 **Resume-Based Question Generation**
+  Upload your resume and get tailored interview questions using AI.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* 🧠 **Category-Based Questions**
+  Choose between:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  * Technical
+  * HR
+  * Project-based
 
-### `npm test`
+* 🔢 **Dynamic Question Count**
+  Select how many questions you want to practice.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* 🎤 **Voice Answer Recording**
+  Answer questions using your voice with real-time speech-to-text.
 
-### `npm run build`
+* 📊 **AI Answer Evaluation**
+  Get feedback including:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  * Score (/10)
+  * Improvements
+  * Suggested better answer
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* ⚡ **Real-Time Processing**
+  Fast and interactive UI with instant responses.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Frontend
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* React.js
+* Tailwind CSS
+* Axios
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Backend
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Node.js
+* Express.js
 
-## Learn More
+### AI Integration
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* OpenRouter API (LLM - GPT-based models)
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* Vercel (Frontend)
+* Render (Backend)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📂 Project Structure
+
+```
+ai-interview-dashboard/
+│
+├── frontend/        # React App
+│   ├── src/
+│   └── package.json
+│
+├── backend/         # Node Server
+│   ├── server.js
+│   └── package.json
+│
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```
+git clone https://github.com/your-username/ai-interview-dashboard.git
+cd ai-interview-dashboard
+```
+
+---
+
+### 2️⃣ Setup Backend
+
+```
+cd backend
+npm install
+```
+
+Create a `.env` file:
+
+```
+API_KEY=your_openrouter_api_key
+```
+
+Run server:
+
+```
+node server.js
+```
+
+---
+
+### 3️⃣ Setup Frontend
+
+```
+cd frontend
+npm install
+npm start
+```
+
+---
+
+## 🌐 Live Demo
+
+* 🔗 Frontend: https://your-app.vercel.app
+* 🔗 Backend: https://your-backend.onrender.com
+
+---
+
+## 🧪 How It Works
+
+1. Upload your resume
+2. Select question category
+3. Generate AI-based questions
+4. Record answers using voice
+5. Get AI feedback instantly
+
+---
+
+## 🚧 Challenges Solved
+
+* Handling large resume input (token optimization)
+* Integrating AI APIs efficiently
+* Implementing browser-based voice recognition
+* Managing async frontend-backend communication
+
+---
+
+## 💡 Future Improvements
+
+* User authentication
+* Save interview history
+* Advanced analytics dashboard
+* Multi-language support
+
+---
+
+## 🙌 Author
+
+**Kalyani Jupally**
+
+* LinkedIn: https://www.linkedin.com/in/your-profile
+* Email: [your-email@gmail.com](mailto:your-email@gmail.com)
+
+---
+
+## ⭐ Contribute
+
+Feel free to fork this repo and enhance the project!
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.

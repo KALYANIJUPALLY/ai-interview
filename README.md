@@ -51,11 +51,6 @@ An AI-powered web application that generates personalized interview questions fr
 
 * OpenRouter API (LLM - GPT-based models)
 
-### Deployment
-
-* Vercel (Frontend)
-* Render (Backend)
-
 ---
 
 ## 📂 Project Structure

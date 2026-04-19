@@ -114,15 +114,6 @@ node server.js
 cd frontend
 npm install
 npm start
-```
-
----
-
-## 🌐 Live Demo
-
-* 🔗 Frontend: https://your-app.vercel.app
-* 🔗 Backend: https://your-backend.onrender.com
-
 ---
 
 ## 🧪 How It Works
@@ -157,8 +148,8 @@ npm start
 
 **Kalyani Jupally**
 
-* LinkedIn: https://www.linkedin.com/in/your-profile
-* Email: [your-email@gmail.com](mailto:your-email@gmail.com)
+* LinkedIn: https://www.linkedin.com/in/kalyani-jupally-b9221a2a1
+* Email: kalyani.jupally12@gmail.com
 
 ---
 

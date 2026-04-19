@@ -45,7 +45,6 @@ An AI-powered web application that generates personalized interview questions fr
 ### Backend
 
 * Node.js
-* Express.js
 
 ### AI Integration
 
